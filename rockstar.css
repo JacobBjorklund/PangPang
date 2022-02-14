@@ -9,10 +9,11 @@ h1{
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
     background-color: #1a1a1f;
     color: #af0928;
     padding: 1rem 2rem 1rem 2rem;
-    height: 100%;
 }
 
 header {
