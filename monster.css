@@ -18,10 +18,10 @@ html {
 #bilder {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   height: 450px;
-  width: 220px;
+  text-align: center;
+  gap: 1rem;
 }
 
 
@@ -43,23 +43,19 @@ html {
 
 img {
    display: flex;
-   justify-content: center;
-   align-items: center;
    flex-direction: column;
    height: 100%;
 }
 
 #wrapper {
    display: flex;
-   width: 100%;
-   height: 100vh;
    flex-wrap: wrap;
-   gap: 8rem;
-   padding-left: 8rem;
+   gap: 9rem;
    margin-bottom: 4rem;
 }
 
 h2 {
+  display: flex;
   text-align: center;
   justify-content: center;
   font-size: 2.5rem;
